@@ -6,6 +6,8 @@ And then assign a specific menu to a variable -> main_menu = menus.find_menu("Le
 Then you could expand such menu with the following command:
 custom_menu = main_menu.add_sub_menu("Custom Menu", "Custom Menu Entry", "Menu Name", "Menu Label")
 
+NOTE: You need to call -> menus.refresh_all_widgets() - to update the interface.
+
 """
 import unreal
 
